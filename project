@@ -1,0 +1,34 @@
+User:
+        Get        =>   /users              => gets all post
+        Post       =>   /users              => creates a user
+        Get        =>   /users/id           => gets a single post
+        Put        =>   /users/id            => updates a post
+        delete     =>   /users/id            => deletes a post
+
+---------------------------------------------------------------------------
+
+Post:
+        Get        =>   /posts              => gets all post
+
+----------------------------------------------------------------------------
+category:
+        Get        =>   /category                  => gets all post
+        Get        =>   /category/post/id          => gets a single post
+        Get        =>   /category/id/user/id/post     => gets post with the
+
+----------------------------------------------------------------------------
+User-Post:
+        Get        =>   /user/id/posts              => gets all user post
+        Post       =>   /user/id/posts              => creates a post
+        Get        =>   /user/id/posts/id           => gets a single post
+        Put        =>   /user/id/posts/id           => updates a post
+        delete     =>   /user/id/posts/id           => deletes a post
+----------------------------------------------------------------------------
+
+User-Post:
+        Get        =>   /user/id/songs              => gets all user post
+        Post       =>   /user/id/songs              => creates a post
+        Get        =>   /user/id/songs/id           => gets a single post
+        Put        =>   /user/id/songs/id           => updates a post
+        delete     =>   /user/id/songs/id           => deletes a post
+----------------------------------------------------------------------------
