@@ -14,6 +14,7 @@ h3{
 }
 header{
   background: url("../img/main-img/header-img.jpg");
+  background-size: cover;
   height: 600px;
 }
 .sinatra-hero .navbar{
@@ -231,7 +232,7 @@ header{
 }
 
 /***********************************
-  about styless
+  about styles
 *************************************/
 
 .about-vid {
@@ -249,7 +250,7 @@ header{
 }
 
 /***********************************
-  contact styless
+  contact styles
 *************************************/
  .contact{
   margin-bottom: 50px;

@@ -1,3 +1,3 @@
-#SONGS OF SINATRA
+# SONGS OF SINATRA
 
-##A simple demo application for the artise sinatra 
+## A simple demo application for the artis sinatra
